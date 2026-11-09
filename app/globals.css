@@ -1,24 +1,29 @@
-/* Luxury Obsidian & Champagne Gold Theme Tokens */
 :root {
-  --background: #07090e;
-  --foreground: #f8fafc;
-  --card-bg: rgba(13, 18, 30, 0.85);
-  --accent-gold: #D4AF37;
-  --accent-gold-glow: rgba(212, 175, 55, 0.4);
-  --accent-emerald: #10B981;
-  --border-gold: rgba(212, 175, 55, 0.3);
-  --border-glass: rgba(255, 255, 255, 0.1);
+  --primary-accent: #D4AF37;
+  --theme-name: "obsidian-gold";
+  --layout-style: "obsidian-executive";
+  --bg-deep: #07090e;
+  --surface-glass: rgba(15, 20, 32, 0.75);
 }
 
-.luxury-glass-card {
-  background: var(--card-bg);
-  border: 1px solid var(--border-gold);
-  backdrop-filter: blur(28px);
-  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.6);
+body {
+  background-color: var(--bg-deep);
+  color: #f1f5f9;
+  font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
 }
 
-.gold-gradient-text {
-  background: linear-gradient(135deg, #fff2cc 0%, #D4AF37 50%, #aa820a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.luxury-glow {
+  box-shadow: 0 0 35px #D4AF3733;
+}
+
+.luxury-border {
+  border-color: #D4AF374d;
+}
+
+.accent-text {
+  color: #D4AF37;
+}
+
+.accent-bg {
+  background-color: #D4AF37;
 }
